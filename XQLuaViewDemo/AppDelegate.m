@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "XQTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    XQTableViewController *tableVC = [[XQTableViewController alloc]initWithStyle:UITableViewStyleGrouped];
+    UINavigationController *navVC = [[UINavigationController alloc]initWithRootViewController:tableVC];
+    self.window.rootViewController = navVC;
+
     return YES;
 }
 

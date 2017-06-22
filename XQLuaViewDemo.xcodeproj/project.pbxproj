@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4171A7D9911CEEB07780F930 /* libPods-XQLuaViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFAAF8D58797D33AD133E1A1 /* libPods-XQLuaViewDemo.a */; };
+		7C9A50B83E3154963A948156 /* libPods-XQLuaViewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C81006CFE300A9C4EA0464 /* libPods-XQLuaViewDemoTests.a */; };
+		802792C61EF901BA004C242F /* XQTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 802792C51EF901BA004C242F /* XQTableViewController.m */; };
+		804839141F021112002EE19E /* XQLuaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804839011F021112002EE19E /* XQLuaViewController.m */; };
+		804839151F021112002EE19E /* XQLuaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804839021F021112002EE19E /* XQLuaViewController.xib */; };
+		804839161F021112002EE19E /* XQLuaViewCoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804839041F021112002EE19E /* XQLuaViewCoreViewController.m */; };
+		804839171F021112002EE19E /* XQLuaViewCoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804839051F021112002EE19E /* XQLuaViewCoreViewController.xib */; };
+		804839181F021112002EE19E /* XQImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 804839081F021112002EE19E /* XQImage.m */; };
+		804839191F021112002EE19E /* XQItemLuaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8048390A1F021112002EE19E /* XQItemLuaView.m */; };
+		8048391A1F021112002EE19E /* HelloWorld.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8048390C1F021112002EE19E /* HelloWorld.lua */; };
+		8048391B1F021112002EE19E /* XQAllLua.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8048390D1F021112002EE19E /* XQAllLua.lua */; };
+		8048391C1F021112002EE19E /* XQAllLuaAndCustomUI.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8048390E1F021112002EE19E /* XQAllLuaAndCustomUI.lua */; };
+		8048391D1F021112002EE19E /* XQHalfLua.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8048390F1F021112002EE19E /* XQHalfLua.lua */; };
+		8048391E1F021112002EE19E /* XQLuaViewCore.lua in Resources */ = {isa = PBXBuildFile; fileRef = 804839101F021112002EE19E /* XQLuaViewCore.lua */; };
+		8048391F1F021112002EE19E /* XQRegisterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 804839131F021112002EE19E /* XQRegisterManager.m */; };
 		8069766A1EE5305000B4B92D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 806976691EE5305000B4B92D /* main.m */; };
 		8069766D1EE5305000B4B92D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8069766C1EE5305000B4B92D /* AppDelegate.m */; };
-		806976701EE5305000B4B92D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8069766F1EE5305000B4B92D /* ViewController.m */; };
 		806976731EE5305000B4B92D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806976711EE5305000B4B92D /* Main.storyboard */; };
 		806976751EE5305000B4B92D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806976741EE5305000B4B92D /* Assets.xcassets */; };
 		806976781EE5305000B4B92D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806976761EE5305000B4B92D /* LaunchScreen.storyboard */; };
 		806976831EE5305000B4B92D /* XQLuaViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 806976821EE5305000B4B92D /* XQLuaViewDemoTests.m */; };
 		8069768E1EE5305000B4B92D /* XQLuaViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8069768D1EE5305000B4B92D /* XQLuaViewDemoUITests.m */; };
+		E2F7DD12ECDC0C5CD05B0FB4 /* libPods-XQLuaViewDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1BC03017924947A6202358 /* libPods-XQLuaViewDemoUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +50,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C1BC03017924947A6202358 /* libPods-XQLuaViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XQLuaViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		463129618D05206EE567C356 /* Pods-XQLuaViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQLuaViewDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XQLuaViewDemoUITests/Pods-XQLuaViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7486DDA8329419B5BE31F295 /* Pods-XQLuaViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQLuaViewDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XQLuaViewDemoUITests/Pods-XQLuaViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		802792C41EF901BA004C242F /* XQTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQTableViewController.h; sourceTree = "<group>"; };
+		802792C51EF901BA004C242F /* XQTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQTableViewController.m; sourceTree = "<group>"; };
+		804839001F021112002EE19E /* XQLuaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQLuaViewController.h; sourceTree = "<group>"; };
+		804839011F021112002EE19E /* XQLuaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQLuaViewController.m; sourceTree = "<group>"; };
+		804839021F021112002EE19E /* XQLuaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XQLuaViewController.xib; sourceTree = "<group>"; };
+		804839031F021112002EE19E /* XQLuaViewCoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQLuaViewCoreViewController.h; sourceTree = "<group>"; };
+		804839041F021112002EE19E /* XQLuaViewCoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQLuaViewCoreViewController.m; sourceTree = "<group>"; };
+		804839051F021112002EE19E /* XQLuaViewCoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XQLuaViewCoreViewController.xib; sourceTree = "<group>"; };
+		804839071F021112002EE19E /* XQImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQImage.h; sourceTree = "<group>"; };
+		804839081F021112002EE19E /* XQImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQImage.m; sourceTree = "<group>"; };
+		804839091F021112002EE19E /* XQItemLuaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQItemLuaView.h; sourceTree = "<group>"; };
+		8048390A1F021112002EE19E /* XQItemLuaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQItemLuaView.m; sourceTree = "<group>"; };
+		8048390C1F021112002EE19E /* HelloWorld.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HelloWorld.lua; sourceTree = "<group>"; };
+		8048390D1F021112002EE19E /* XQAllLua.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XQAllLua.lua; sourceTree = "<group>"; };
+		8048390E1F021112002EE19E /* XQAllLuaAndCustomUI.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XQAllLuaAndCustomUI.lua; sourceTree = "<group>"; };
+		8048390F1F021112002EE19E /* XQHalfLua.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XQHalfLua.lua; sourceTree = "<group>"; };
+		804839101F021112002EE19E /* XQLuaViewCore.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XQLuaViewCore.lua; sourceTree = "<group>"; };
+		804839121F021112002EE19E /* XQRegisterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQRegisterManager.h; sourceTree = "<group>"; };
+		804839131F021112002EE19E /* XQRegisterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRegisterManager.m; sourceTree = "<group>"; };
 		806976651EE5305000B4B92D /* XQLuaViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XQLuaViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		806976691EE5305000B4B92D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8069766B1EE5305000B4B92D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8069766C1EE5305000B4B92D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8069766E1EE5305000B4B92D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8069766F1EE5305000B4B92D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		806976721EE5305000B4B92D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		806976741EE5305000B4B92D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		806976771EE5305000B4B92D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +86,12 @@
 		806976891EE5305000B4B92D /* XQLuaViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XQLuaViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8069768D1EE5305000B4B92D /* XQLuaViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQLuaViewDemoUITests.m; sourceTree = "<group>"; };
 		8069768F1EE5305000B4B92D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAAF8D58797D33AD133E1A1 /* libPods-XQLuaViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XQLuaViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE87B335966C4712ACCB73C /* Pods-XQLuaViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQLuaViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XQLuaViewDemo/Pods-XQLuaViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E20337E4D4DAEF8D36917DB5 /* Pods-XQLuaViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQLuaViewDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XQLuaViewDemoTests/Pods-XQLuaViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E631EADE457BC60F1BA3DCC5 /* Pods-XQLuaViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQLuaViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XQLuaViewDemo/Pods-XQLuaViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F4C81006CFE300A9C4EA0464 /* libPods-XQLuaViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XQLuaViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B99D5F5399AB6DEA75CDE3 /* Pods-XQLuaViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQLuaViewDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XQLuaViewDemoTests/Pods-XQLuaViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4171A7D9911CEEB07780F930 /* libPods-XQLuaViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C9A50B83E3154963A948156 /* libPods-XQLuaViewDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +115,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F7DD12ECDC0C5CD05B0FB4 /* libPods-XQLuaViewDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		804838FF1F021112002EE19E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				804839001F021112002EE19E /* XQLuaViewController.h */,
+				804839011F021112002EE19E /* XQLuaViewController.m */,
+				804839021F021112002EE19E /* XQLuaViewController.xib */,
+				804839031F021112002EE19E /* XQLuaViewCoreViewController.h */,
+				804839041F021112002EE19E /* XQLuaViewCoreViewController.m */,
+				804839051F021112002EE19E /* XQLuaViewCoreViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		804839061F021112002EE19E /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				804839071F021112002EE19E /* XQImage.h */,
+				804839081F021112002EE19E /* XQImage.m */,
+				804839091F021112002EE19E /* XQItemLuaView.h */,
+				8048390A1F021112002EE19E /* XQItemLuaView.m */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		8048390B1F021112002EE19E /* Lua */ = {
+			isa = PBXGroup;
+			children = (
+				8048390C1F021112002EE19E /* HelloWorld.lua */,
+				8048390D1F021112002EE19E /* XQAllLua.lua */,
+				8048390E1F021112002EE19E /* XQAllLuaAndCustomUI.lua */,
+				8048390F1F021112002EE19E /* XQHalfLua.lua */,
+				804839101F021112002EE19E /* XQLuaViewCore.lua */,
+			);
+			path = Lua;
+			sourceTree = "<group>";
+		};
+		804839111F021112002EE19E /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				804839121F021112002EE19E /* XQRegisterManager.h */,
+				804839131F021112002EE19E /* XQRegisterManager.m */,
+			);
+			path = Operation;
+			sourceTree = "<group>";
+		};
 		8069765C1EE5305000B4B92D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +174,8 @@
 				806976811EE5305000B4B92D /* XQLuaViewDemoTests */,
 				8069768C1EE5305000B4B92D /* XQLuaViewDemoUITests */,
 				806976661EE5305000B4B92D /* Products */,
+				BCBAF97D4B2079F33648E3CD /* Pods */,
+				90C27A5D15560F2D5DFE900A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +194,13 @@
 			children = (
 				8069766B1EE5305000B4B92D /* AppDelegate.h */,
 				8069766C1EE5305000B4B92D /* AppDelegate.m */,
-				8069766E1EE5305000B4B92D /* ViewController.h */,
-				8069766F1EE5305000B4B92D /* ViewController.m */,
-				806976711EE5305000B4B92D /* Main.storyboard */,
+				802792C41EF901BA004C242F /* XQTableViewController.h */,
+				802792C51EF901BA004C242F /* XQTableViewController.m */,
+				804838FF1F021112002EE19E /* Controllers */,
+				804839061F021112002EE19E /* CustomClass */,
+				804839111F021112002EE19E /* Operation */,
+				8048390B1F021112002EE19E /* Lua */,
 				806976741EE5305000B4B92D /* Assets.xcassets */,
-				806976761EE5305000B4B92D /* LaunchScreen.storyboard */,
-				806976791EE5305000B4B92D /* Info.plist */,
 				806976681EE5305000B4B92D /* Supporting Files */,
 			);
 			path = XQLuaViewDemo;
@@ -117,6 +209,9 @@
 		806976681EE5305000B4B92D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				806976711EE5305000B4B92D /* Main.storyboard */,
+				806976761EE5305000B4B92D /* LaunchScreen.storyboard */,
+				806976791EE5305000B4B92D /* Info.plist */,
 				806976691EE5305000B4B92D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +235,29 @@
 			path = XQLuaViewDemoUITests;
 			sourceTree = "<group>";
 		};
+		90C27A5D15560F2D5DFE900A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFAAF8D58797D33AD133E1A1 /* libPods-XQLuaViewDemo.a */,
+				F4C81006CFE300A9C4EA0464 /* libPods-XQLuaViewDemoTests.a */,
+				1C1BC03017924947A6202358 /* libPods-XQLuaViewDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCBAF97D4B2079F33648E3CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E631EADE457BC60F1BA3DCC5 /* Pods-XQLuaViewDemo.debug.xcconfig */,
+				DDE87B335966C4712ACCB73C /* Pods-XQLuaViewDemo.release.xcconfig */,
+				E20337E4D4DAEF8D36917DB5 /* Pods-XQLuaViewDemoTests.debug.xcconfig */,
+				F7B99D5F5399AB6DEA75CDE3 /* Pods-XQLuaViewDemoTests.release.xcconfig */,
+				7486DDA8329419B5BE31F295 /* Pods-XQLuaViewDemoUITests.debug.xcconfig */,
+				463129618D05206EE567C356 /* Pods-XQLuaViewDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 806976921EE5305000B4B92D /* Build configuration list for PBXNativeTarget "XQLuaViewDemo" */;
 			buildPhases = (
+				62030A35D18F6978F50347D6 /* [CP] Check Pods Manifest.lock */,
 				806976611EE5305000B4B92D /* Sources */,
 				806976621EE5305000B4B92D /* Frameworks */,
 				806976631EE5305000B4B92D /* Resources */,
+				B2CB5B94F913DE7781B021FA /* [CP] Embed Pods Frameworks */,
+				28766E32FF11866D720BF4ED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 806976951EE5305000B4B92D /* Build configuration list for PBXNativeTarget "XQLuaViewDemoTests" */;
 			buildPhases = (
+				F6A63D0762F2EEDC12BF1CB4 /* [CP] Check Pods Manifest.lock */,
 				8069767A1EE5305000B4B92D /* Sources */,
 				8069767B1EE5305000B4B92D /* Frameworks */,
 				8069767C1EE5305000B4B92D /* Resources */,
+				D8C897A6C81CD20E86BCBFE5 /* [CP] Embed Pods Frameworks */,
+				0C66C4F54828093BD48DED7D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +306,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 806976981EE5305000B4B92D /* Build configuration list for PBXNativeTarget "XQLuaViewDemoUITests" */;
 			buildPhases = (
+				03C3AB4DC1E0EC582284AA61 /* [CP] Check Pods Manifest.lock */,
 				806976851EE5305000B4B92D /* Sources */,
 				806976861EE5305000B4B92D /* Frameworks */,
 				806976871EE5305000B4B92D /* Resources */,
+				EA6E56B369DF904E9FD0EA4F /* [CP] Embed Pods Frameworks */,
+				2849BFC296129EA4266C4CDA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +334,6 @@
 				TargetAttributes = {
 					806976641EE5305000B4B92D = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 89G2FJWHP7;
 						ProvisioningStyle = Automatic;
 					};
 					8069767D1EE5305000B4B92D = {
@@ -251,7 +377,14 @@
 			files = (
 				806976781EE5305000B4B92D /* LaunchScreen.storyboard in Resources */,
 				806976751EE5305000B4B92D /* Assets.xcassets in Resources */,
+				8048391E1F021112002EE19E /* XQLuaViewCore.lua in Resources */,
+				8048391B1F021112002EE19E /* XQAllLua.lua in Resources */,
+				8048391A1F021112002EE19E /* HelloWorld.lua in Resources */,
+				804839171F021112002EE19E /* XQLuaViewCoreViewController.xib in Resources */,
+				8048391D1F021112002EE19E /* XQHalfLua.lua in Resources */,
+				804839151F021112002EE19E /* XQLuaViewController.xib in Resources */,
 				806976731EE5305000B4B92D /* Main.storyboard in Resources */,
+				8048391C1F021112002EE19E /* XQAllLuaAndCustomUI.lua in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +404,157 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03C3AB4DC1E0EC582284AA61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0C66C4F54828093BD48DED7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XQLuaViewDemoTests/Pods-XQLuaViewDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2849BFC296129EA4266C4CDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XQLuaViewDemoUITests/Pods-XQLuaViewDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28766E32FF11866D720BF4ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XQLuaViewDemo/Pods-XQLuaViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62030A35D18F6978F50347D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2CB5B94F913DE7781B021FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XQLuaViewDemo/Pods-XQLuaViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8C897A6C81CD20E86BCBFE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XQLuaViewDemoTests/Pods-XQLuaViewDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA6E56B369DF904E9FD0EA4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XQLuaViewDemoUITests/Pods-XQLuaViewDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A63D0762F2EEDC12BF1CB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		806976611EE5305000B4B92D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				806976701EE5305000B4B92D /* ViewController.m in Sources */,
 				8069766D1EE5305000B4B92D /* AppDelegate.m in Sources */,
+				802792C61EF901BA004C242F /* XQTableViewController.m in Sources */,
+				804839141F021112002EE19E /* XQLuaViewController.m in Sources */,
 				8069766A1EE5305000B4B92D /* main.m in Sources */,
+				804839191F021112002EE19E /* XQItemLuaView.m in Sources */,
+				804839181F021112002EE19E /* XQImage.m in Sources */,
+				804839161F021112002EE19E /* XQLuaViewCoreViewController.m in Sources */,
+				8048391F1F021112002EE19E /* XQRegisterManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,10 +699,12 @@
 		};
 		806976931EE5305000B4B92D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E631EADE457BC60F1BA3DCC5 /* Pods-XQLuaViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 89G2FJWHP7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = XQLuaViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XQLuaViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,10 +713,12 @@
 		};
 		806976941EE5305000B4B92D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE87B335966C4712ACCB73C /* Pods-XQLuaViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 89G2FJWHP7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = XQLuaViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.XQLuaViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +727,7 @@
 		};
 		806976961EE5305000B4B92D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E20337E4D4DAEF8D36917DB5 /* Pods-XQLuaViewDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 89G2FJWHP7;
@@ -460,6 +741,7 @@
 		};
 		806976971EE5305000B4B92D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7B99D5F5399AB6DEA75CDE3 /* Pods-XQLuaViewDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 89G2FJWHP7;
@@ -473,6 +755,7 @@
 		};
 		806976991EE5305000B4B92D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7486DDA8329419B5BE31F295 /* Pods-XQLuaViewDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 89G2FJWHP7;
 				INFOPLIST_FILE = XQLuaViewDemoUITests/Info.plist;
@@ -485,6 +768,7 @@
 		};
 		8069769A1EE5305000B4B92D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463129618D05206EE567C356 /* Pods-XQLuaViewDemoUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 89G2FJWHP7;
 				INFOPLIST_FILE = XQLuaViewDemoUITests/Info.plist;
@@ -514,6 +798,7 @@
 				806976941EE5305000B4B92D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		806976951EE5305000B4B92D /* Build configuration list for PBXNativeTarget "XQLuaViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +807,7 @@
 				806976971EE5305000B4B92D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		806976981EE5305000B4B92D /* Build configuration list for PBXNativeTarget "XQLuaViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +816,7 @@
 				8069769A1EE5305000B4B92D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

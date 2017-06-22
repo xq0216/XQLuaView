@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XQLuaViewController">
+            <connections>
+                <outlet property="imgView" destination="Wgj-qc-50x" id="AAL-Ub-RLf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xqbanner" translatesAutoresizingMaskIntoConstraints="NO" id="Wgj-qc-50x">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="190"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="190" id="sY3-bM-Qrg"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Wgj-qc-50x" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="23W-ha-ZFh"/>
+                <constraint firstAttribute="trailing" secondItem="Wgj-qc-50x" secondAttribute="trailing" id="kFo-wn-biO"/>
+                <constraint firstItem="Wgj-qc-50x" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="uoy-ek-Htg"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xqbanner" width="1280" height="720"/>
+    </resources>
+</document>

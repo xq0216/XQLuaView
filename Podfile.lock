@@ -1,0 +1,26 @@
+PODS:
+  - LuaViewSDK (0.5.1)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+
+DEPENDENCIES:
+  - LuaViewSDK (from `git@github.com:alibaba/LuaViewSDK.git`)
+  - SDWebImage (= 3.7.5)
+
+EXTERNAL SOURCES:
+  LuaViewSDK:
+    :git: git@github.com:alibaba/LuaViewSDK.git
+
+CHECKOUT OPTIONS:
+  LuaViewSDK:
+    :commit: d12483589f215cfc303698db7baac209f159af08
+    :git: git@github.com:alibaba/LuaViewSDK.git
+
+SPEC CHECKSUMS:
+  LuaViewSDK: a7ddb90f2f456e92687d87a734485fdcae054900
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+
+PODFILE CHECKSUM: '092e65604f17d328e627d896a441827e3bc76ade'
+
+COCOAPODS: 1.1.1
