@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,7 +20,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xqbanner" translatesAutoresizingMaskIntoConstraints="NO" id="Wgj-qc-50x">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon" translatesAutoresizingMaskIntoConstraints="NO" id="Wgj-qc-50x">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="190"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="190" id="sY3-bM-Qrg"/>
@@ -37,6 +38,6 @@
         </view>
     </objects>
     <resources>
-        <image name="xqbanner" width="1280" height="720"/>
+        <image name="icon" width="57" height="57"/>
     </resources>
 </document>

@@ -9,45 +9,42 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "XQLuaViewDemo/XQLViewController.m"
-            timestampString = "519534734.402866"
+            filePath = "XQLuaViewDemo/XQTableViewController.m"
+            timestampString = "520742548.86214"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "-didCreateLuaView:"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-didReceiveMemoryWarning"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pods/LuaViewSDK/IOS/SDK/LuaViewSDK/Classes/lvsdk/LVCollectionViewDelegate.m"
-            timestampString = "519535730.377973"
+            filePath = "Pods/ZipArchive/ZipArchive.m"
+            timestampString = "520745455.627747"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "-collectionView:cellForItemAtIndexPath:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
+            startingLineNumber = "622"
+            endingLineNumber = "622"
+=======
+>>>>>>> 41717b7f834e3bb94d69587c988db1e4d83a31de
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pods/LuaViewSDK/IOS/SDK/LuaViewSDK/Classes/lvsdk/LVCollectionViewDelegate.m"
-            timestampString = "519535760.934093"
+            filePath = "Pods/ZipArchive/ZipArchive.m"
+            timestampString = "520745455.627747"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "-collectionView:cellForItemAtIndexPath:"
+            startingLineNumber = "622"
+            endingLineNumber = "622"
+            landmarkName = "-getZipFileContents"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -57,13 +54,104 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "XQLuaViewDemo/XQLVCollectionViewCell.m"
-            timestampString = "519548600.530715"
+            filePath = "Pods/ZipArchive/ZipArchive.m"
+            timestampString = "520745535.235018"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "title()"
+            startingLineNumber = "615"
+            endingLineNumber = "615"
+<<<<<<< HEAD
+=======
+>>>>>>> [XQLuaViewDemo] Luaview 第二阶段学习，扩展的 demo 功能：
+>>>>>>> 41717b7f834e3bb94d69587c988db1e4d83a31de
+            landmarkName = "-getZipFileContents"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+<<<<<<< HEAD
+            filePath = "Pods/LuaViewSDK/IOS/SDK/LuaViewSDK/Classes/lvsdk/LVHttp.m"
+            timestampString = "520757327.896793"
+=======
+<<<<<<< HEAD
+            filePath = "Pods/ZipArchive/ZipArchive.m"
+            timestampString = "520745535.235018"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "615"
+            endingLineNumber = "615"
+            landmarkName = "-getZipFileContents"
+=======
+            filePath = "Pods/LuaViewSDK/IOS/SDK/LuaViewSDK/Classes/lvsdk/LVHttp.m"
+            timestampString = "520757327.896793"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "-connection:didReceiveAuthenticationChallenge:"
+>>>>>>> [XQLuaViewDemo] Luaview 第二阶段学习，扩展的 demo 功能：
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LuaViewSDK/IOS/SDK/LuaViewSDK/Classes/lvsdk/LVHttp.m"
+<<<<<<< HEAD
+            timestampString = "520757327.896793"
+>>>>>>> 41717b7f834e3bb94d69587c988db1e4d83a31de
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "-connection:didReceiveAuthenticationChallenge:"
+            landmarkType = "7">
+=======
+            timestampString = "520757359.929828"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "get()"
+            landmarkType = "9">
+>>>>>>> [XQLuaViewDemo] Luaview 第二阶段学习，扩展的 demo 功能：
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/LuaViewSDK/IOS/SDK/LuaViewSDK/Classes/lvsdk/LVHttp.m"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 41717b7f834e3bb94d69587c988db1e4d83a31de
+            timestampString = "520757359.929828"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+<<<<<<< HEAD
+=======
+=======
+            timestampString = "520757371.188834"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+>>>>>>> [XQLuaViewDemo] Luaview 第二阶段学习，扩展的 demo 功能：
+>>>>>>> 41717b7f834e3bb94d69587c988db1e4d83a31de
+            landmarkName = "get()"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -73,13 +161,29 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "XQLuaViewDemo/XQLVCollectionViewCell.m"
-            timestampString = "519548600.530715"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 41717b7f834e3bb94d69587c988db1e4d83a31de
+            filePath = "Pods/LuaViewSDK/IOS/SDK/LuaViewSDK/Classes/lvsdk/LVHttp.m"
+            timestampString = "520757371.188834"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "setFunImage()"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "get()"
+<<<<<<< HEAD
+=======
+=======
+            filePath = "Pods/LuaViewSDK/IOS/lua/lua/lbaselib.c"
+            timestampString = "520761481.921106"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "316"
+            endingLineNumber = "316"
+            landmarkName = "luaB_load()"
+>>>>>>> [XQLuaViewDemo] Luaview 第二阶段学习，扩展的 demo 功能：
+>>>>>>> 41717b7f834e3bb94d69587c988db1e4d83a31de
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -89,77 +193,17 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pods/LuaViewSDK/IOS/SDK/LuaViewSDK/Classes/lvsdk/LVCollectionView.m"
-            timestampString = "519549355.004384"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 41717b7f834e3bb94d69587c988db1e4d83a31de
+            filePath = "Pods/LuaViewSDK/IOS/lua/lua/lbaselib.c"
+            timestampString = "520761481.921106"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "257"
-            endingLineNumber = "257"
-            landmarkName = "+lvClassDefine:globalName:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "XQLuaViewDemo/XQLVCollectionViewDelegate.m"
-            timestampString = "519557663.787412"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "-collectionView:cellForItemAtIndexPath:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "XQLuaViewDemo/XQLVCollectionViewCell.m"
-            timestampString = "519557737.608607"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "-initWithFrame:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "XQLuaViewDemo/XQLVCollectionViewDelegate.m"
-            timestampString = "519557801.684563"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
-            landmarkName = "-retSizeCallKey1:key2:key3:mapedSection:mapedRow:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Pods/LuaViewSDK/IOS/lua/lua/loadlib.c"
-            timestampString = "519791319.747493"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "ll_load()"
+            startingLineNumber = "316"
+            endingLineNumber = "316"
+            landmarkName = "luaB_load()"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
@@ -169,14 +213,74 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "XQLuaViewDemo/XQManagerTruckViewController.m"
-            timestampString = "519815509.331858"
+            filePath = "Pods/LuaViewSDK/IOS/lua/lua/lauxlib.c"
+            timestampString = "520761791.294374"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
-            landmarkName = "-runLua"
-            landmarkType = "7">
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "luaL_checktype()"
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+            filePath = "Pods/LuaViewSDK/IOS/lua/lua/lauxlib.c"
+            timestampString = "520761791.294374"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "luaL_checktype()"
+=======
+            filePath = "Pods/LuaViewSDK/IOS/lua/lua/lbaselib.c"
+            timestampString = "520762376.462194"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "397"
+            endingLineNumber = "397"
+            landmarkName = "luaB_tostring()"
+>>>>>>> [XQLuaViewDemo] Luaview 第二阶段学习，扩展的 demo 功能：
+>>>>>>> [XQLuaViewDemo] Luaview 第二阶段学习，扩展的 demo 功能：
+>>>>>>> 41717b7f834e3bb94d69587c988db1e4d83a31de
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> [XQLuaViewDemo] Luaview 第二阶段学习，扩展的 demo 功能：
+>>>>>>> 41717b7f834e3bb94d69587c988db1e4d83a31de
+            filePath = "Pods/LuaViewSDK/IOS/lua/lua/lbaselib.c"
+            timestampString = "520762376.462194"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "397"
+            endingLineNumber = "397"
+            landmarkName = "luaB_tostring()"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+            filePath = "Pods/LuaViewSDK/IOS/lua/lua/lua.c"
+            timestampString = "522058460.413216"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "341"
+            endingLineNumber = "341"
+            landmarkName = "pmain()"
+>>>>>>> [XQLuaViewDemo] Luaview 第二阶段学习，扩展的 demo 功能：
+>>>>>>> [XQLuaViewDemo] Luaview 第二阶段学习，扩展的 demo 功能：
+>>>>>>> 41717b7f834e3bb94d69587c988db1e4d83a31de
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

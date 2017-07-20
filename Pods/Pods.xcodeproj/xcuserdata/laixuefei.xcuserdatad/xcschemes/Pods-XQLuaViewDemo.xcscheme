@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4922D07ED569C25B9725AE6F4A4405A0'
+               BlueprintIdentifier = 'E78A5B2373CE7E5A63663B5A47344BE7'
                BlueprintName = 'Pods-XQLuaViewDemo'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-XQLuaViewDemo.a'>

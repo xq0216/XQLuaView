@@ -358,7 +358,8 @@ UIColor* lv_getColorFromStack(lua_State* L, int stackID){
         urlStr = [NSString stringWithFormat:@"https:%@",urlStr];
     }
     if( [urlStr.lowercaseString hasPrefix:@"http://"] ){
-        urlStr = [NSString stringWithFormat:@"https://%@",[urlStr substringFromIndex:7]];
+        //by xq
+//        urlStr = [NSString stringWithFormat:@"https://%@",[urlStr substringFromIndex:7]];
     }
     NSURL *url = [NSURL URLWithString:urlStr];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];

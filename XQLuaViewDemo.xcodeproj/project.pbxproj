@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4171A7D9911CEEB07780F930 /* libPods-XQLuaViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFAAF8D58797D33AD133E1A1 /* libPods-XQLuaViewDemo.a */; };
 		7C9A50B83E3154963A948156 /* libPods-XQLuaViewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4C81006CFE300A9C4EA0464 /* libPods-XQLuaViewDemoTests.a */; };
+		80152FBA1F062F7E005917FD /* XQDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 80152FB91F062F7E005917FD /* XQDataHelper.m */; };
 		802792C61EF901BA004C242F /* XQTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 802792C51EF901BA004C242F /* XQTableViewController.m */; };
 		804839141F021112002EE19E /* XQLuaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804839011F021112002EE19E /* XQLuaViewController.m */; };
 		804839151F021112002EE19E /* XQLuaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804839021F021112002EE19E /* XQLuaViewController.xib */; };
@@ -16,12 +17,8 @@
 		804839171F021112002EE19E /* XQLuaViewCoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804839051F021112002EE19E /* XQLuaViewCoreViewController.xib */; };
 		804839181F021112002EE19E /* XQImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 804839081F021112002EE19E /* XQImage.m */; };
 		804839191F021112002EE19E /* XQItemLuaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8048390A1F021112002EE19E /* XQItemLuaView.m */; };
-		8048391A1F021112002EE19E /* HelloWorld.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8048390C1F021112002EE19E /* HelloWorld.lua */; };
-		8048391B1F021112002EE19E /* XQAllLua.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8048390D1F021112002EE19E /* XQAllLua.lua */; };
-		8048391C1F021112002EE19E /* XQAllLuaAndCustomUI.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8048390E1F021112002EE19E /* XQAllLuaAndCustomUI.lua */; };
-		8048391D1F021112002EE19E /* XQHalfLua.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8048390F1F021112002EE19E /* XQHalfLua.lua */; };
-		8048391E1F021112002EE19E /* XQLuaViewCore.lua in Resources */ = {isa = PBXBuildFile; fileRef = 804839101F021112002EE19E /* XQLuaViewCore.lua */; };
 		8048391F1F021112002EE19E /* XQRegisterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 804839131F021112002EE19E /* XQRegisterManager.m */; };
+		8049DDDF1F20614900DBC546 /* XQLuaLoad.lua in Resources */ = {isa = PBXBuildFile; fileRef = 8049DDDE1F20614900DBC546 /* XQLuaLoad.lua */; };
 		8069766A1EE5305000B4B92D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 806976691EE5305000B4B92D /* main.m */; };
 		8069766D1EE5305000B4B92D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8069766C1EE5305000B4B92D /* AppDelegate.m */; };
 		806976731EE5305000B4B92D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806976711EE5305000B4B92D /* Main.storyboard */; };
@@ -29,6 +26,12 @@
 		806976781EE5305000B4B92D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806976761EE5305000B4B92D /* LaunchScreen.storyboard */; };
 		806976831EE5305000B4B92D /* XQLuaViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 806976821EE5305000B4B92D /* XQLuaViewDemoTests.m */; };
 		8069768E1EE5305000B4B92D /* XQLuaViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8069768D1EE5305000B4B92D /* XQLuaViewDemoUITests.m */; };
+		809B345F1F09E2B9008CAE16 /* XQDownloadFilesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 809B345E1F09E2B9008CAE16 /* XQDownloadFilesController.m */; };
+		809B34681F0A3813008CAE16 /* HelloWorld.lua in Resources */ = {isa = PBXBuildFile; fileRef = 809B34631F0A3813008CAE16 /* HelloWorld.lua */; };
+		809B34691F0A3813008CAE16 /* XQAllLua.lua in Resources */ = {isa = PBXBuildFile; fileRef = 809B34641F0A3813008CAE16 /* XQAllLua.lua */; };
+		809B346A1F0A3813008CAE16 /* XQAllLuaAndCustomUI.lua in Resources */ = {isa = PBXBuildFile; fileRef = 809B34651F0A3813008CAE16 /* XQAllLuaAndCustomUI.lua */; };
+		809B346B1F0A3813008CAE16 /* XQHalfLua.lua in Resources */ = {isa = PBXBuildFile; fileRef = 809B34661F0A3813008CAE16 /* XQHalfLua.lua */; };
+		809B346C1F0A3813008CAE16 /* XQLuaViewCore.lua in Resources */ = {isa = PBXBuildFile; fileRef = 809B34671F0A3813008CAE16 /* XQLuaViewCore.lua */; };
 		E2F7DD12ECDC0C5CD05B0FB4 /* libPods-XQLuaViewDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1BC03017924947A6202358 /* libPods-XQLuaViewDemoUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +56,8 @@
 		1C1BC03017924947A6202358 /* libPods-XQLuaViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XQLuaViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		463129618D05206EE567C356 /* Pods-XQLuaViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQLuaViewDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XQLuaViewDemoUITests/Pods-XQLuaViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7486DDA8329419B5BE31F295 /* Pods-XQLuaViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQLuaViewDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XQLuaViewDemoUITests/Pods-XQLuaViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80152FB81F062F7E005917FD /* XQDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQDataHelper.h; sourceTree = "<group>"; };
+		80152FB91F062F7E005917FD /* XQDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQDataHelper.m; sourceTree = "<group>"; };
 		802792C41EF901BA004C242F /* XQTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQTableViewController.h; sourceTree = "<group>"; };
 		802792C51EF901BA004C242F /* XQTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQTableViewController.m; sourceTree = "<group>"; };
 		804839001F021112002EE19E /* XQLuaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQLuaViewController.h; sourceTree = "<group>"; };
@@ -65,13 +70,9 @@
 		804839081F021112002EE19E /* XQImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQImage.m; sourceTree = "<group>"; };
 		804839091F021112002EE19E /* XQItemLuaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQItemLuaView.h; sourceTree = "<group>"; };
 		8048390A1F021112002EE19E /* XQItemLuaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQItemLuaView.m; sourceTree = "<group>"; };
-		8048390C1F021112002EE19E /* HelloWorld.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HelloWorld.lua; sourceTree = "<group>"; };
-		8048390D1F021112002EE19E /* XQAllLua.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XQAllLua.lua; sourceTree = "<group>"; };
-		8048390E1F021112002EE19E /* XQAllLuaAndCustomUI.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XQAllLuaAndCustomUI.lua; sourceTree = "<group>"; };
-		8048390F1F021112002EE19E /* XQHalfLua.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XQHalfLua.lua; sourceTree = "<group>"; };
-		804839101F021112002EE19E /* XQLuaViewCore.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XQLuaViewCore.lua; sourceTree = "<group>"; };
 		804839121F021112002EE19E /* XQRegisterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQRegisterManager.h; sourceTree = "<group>"; };
 		804839131F021112002EE19E /* XQRegisterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRegisterManager.m; sourceTree = "<group>"; };
+		8049DDDE1F20614900DBC546 /* XQLuaLoad.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XQLuaLoad.lua; sourceTree = "<group>"; };
 		806976651EE5305000B4B92D /* XQLuaViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XQLuaViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		806976691EE5305000B4B92D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8069766B1EE5305000B4B92D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +87,13 @@
 		806976891EE5305000B4B92D /* XQLuaViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XQLuaViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8069768D1EE5305000B4B92D /* XQLuaViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQLuaViewDemoUITests.m; sourceTree = "<group>"; };
 		8069768F1EE5305000B4B92D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		809B345D1F09E2B9008CAE16 /* XQDownloadFilesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQDownloadFilesController.h; sourceTree = "<group>"; };
+		809B345E1F09E2B9008CAE16 /* XQDownloadFilesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQDownloadFilesController.m; sourceTree = "<group>"; };
+		809B34631F0A3813008CAE16 /* HelloWorld.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HelloWorld.lua; sourceTree = "<group>"; };
+		809B34641F0A3813008CAE16 /* XQAllLua.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XQAllLua.lua; sourceTree = "<group>"; };
+		809B34651F0A3813008CAE16 /* XQAllLuaAndCustomUI.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XQAllLuaAndCustomUI.lua; sourceTree = "<group>"; };
+		809B34661F0A3813008CAE16 /* XQHalfLua.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XQHalfLua.lua; sourceTree = "<group>"; };
+		809B34671F0A3813008CAE16 /* XQLuaViewCore.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XQLuaViewCore.lua; sourceTree = "<group>"; };
 		AFAAF8D58797D33AD133E1A1 /* libPods-XQLuaViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XQLuaViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE87B335966C4712ACCB73C /* Pods-XQLuaViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQLuaViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-XQLuaViewDemo/Pods-XQLuaViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E20337E4D4DAEF8D36917DB5 /* Pods-XQLuaViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQLuaViewDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XQLuaViewDemoTests/Pods-XQLuaViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +139,8 @@
 				804839031F021112002EE19E /* XQLuaViewCoreViewController.h */,
 				804839041F021112002EE19E /* XQLuaViewCoreViewController.m */,
 				804839051F021112002EE19E /* XQLuaViewCoreViewController.xib */,
+				809B345D1F09E2B9008CAE16 /* XQDownloadFilesController.h */,
+				809B345E1F09E2B9008CAE16 /* XQDownloadFilesController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -146,23 +156,13 @@
 			path = CustomClass;
 			sourceTree = "<group>";
 		};
-		8048390B1F021112002EE19E /* Lua */ = {
-			isa = PBXGroup;
-			children = (
-				8048390C1F021112002EE19E /* HelloWorld.lua */,
-				8048390D1F021112002EE19E /* XQAllLua.lua */,
-				8048390E1F021112002EE19E /* XQAllLuaAndCustomUI.lua */,
-				8048390F1F021112002EE19E /* XQHalfLua.lua */,
-				804839101F021112002EE19E /* XQLuaViewCore.lua */,
-			);
-			path = Lua;
-			sourceTree = "<group>";
-		};
 		804839111F021112002EE19E /* Operation */ = {
 			isa = PBXGroup;
 			children = (
 				804839121F021112002EE19E /* XQRegisterManager.h */,
 				804839131F021112002EE19E /* XQRegisterManager.m */,
+				80152FB81F062F7E005917FD /* XQDataHelper.h */,
+				80152FB91F062F7E005917FD /* XQDataHelper.m */,
 			);
 			path = Operation;
 			sourceTree = "<group>";
@@ -192,6 +192,7 @@
 		806976671EE5305000B4B92D /* XQLuaViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				809B34621F0A3813008CAE16 /* Lua */,
 				8069766B1EE5305000B4B92D /* AppDelegate.h */,
 				8069766C1EE5305000B4B92D /* AppDelegate.m */,
 				802792C41EF901BA004C242F /* XQTableViewController.h */,
@@ -199,7 +200,6 @@
 				804838FF1F021112002EE19E /* Controllers */,
 				804839061F021112002EE19E /* CustomClass */,
 				804839111F021112002EE19E /* Operation */,
-				8048390B1F021112002EE19E /* Lua */,
 				806976741EE5305000B4B92D /* Assets.xcassets */,
 				806976681EE5305000B4B92D /* Supporting Files */,
 			);
@@ -233,6 +233,19 @@
 				8069768F1EE5305000B4B92D /* Info.plist */,
 			);
 			path = XQLuaViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		809B34621F0A3813008CAE16 /* Lua */ = {
+			isa = PBXGroup;
+			children = (
+				8049DDDE1F20614900DBC546 /* XQLuaLoad.lua */,
+				809B34631F0A3813008CAE16 /* HelloWorld.lua */,
+				809B34641F0A3813008CAE16 /* XQAllLua.lua */,
+				809B34651F0A3813008CAE16 /* XQAllLuaAndCustomUI.lua */,
+				809B34661F0A3813008CAE16 /* XQHalfLua.lua */,
+				809B34671F0A3813008CAE16 /* XQLuaViewCore.lua */,
+			);
+			path = Lua;
 			sourceTree = "<group>";
 		};
 		90C27A5D15560F2D5DFE900A /* Frameworks */ = {
@@ -334,7 +347,8 @@
 				TargetAttributes = {
 					806976641EE5305000B4B92D = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 89G2FJWHP7;
+						ProvisioningStyle = Manual;
 					};
 					8069767D1EE5305000B4B92D = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -375,16 +389,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				809B34691F0A3813008CAE16 /* XQAllLua.lua in Resources */,
 				806976781EE5305000B4B92D /* LaunchScreen.storyboard in Resources */,
 				806976751EE5305000B4B92D /* Assets.xcassets in Resources */,
-				8048391E1F021112002EE19E /* XQLuaViewCore.lua in Resources */,
-				8048391B1F021112002EE19E /* XQAllLua.lua in Resources */,
-				8048391A1F021112002EE19E /* HelloWorld.lua in Resources */,
 				804839171F021112002EE19E /* XQLuaViewCoreViewController.xib in Resources */,
-				8048391D1F021112002EE19E /* XQHalfLua.lua in Resources */,
+				8049DDDF1F20614900DBC546 /* XQLuaLoad.lua in Resources */,
+				809B346B1F0A3813008CAE16 /* XQHalfLua.lua in Resources */,
 				804839151F021112002EE19E /* XQLuaViewController.xib in Resources */,
+				809B346A1F0A3813008CAE16 /* XQAllLuaAndCustomUI.lua in Resources */,
 				806976731EE5305000B4B92D /* Main.storyboard in Resources */,
-				8048391C1F021112002EE19E /* XQAllLuaAndCustomUI.lua in Resources */,
+				809B34681F0A3813008CAE16 /* HelloWorld.lua in Resources */,
+				809B346C1F0A3813008CAE16 /* XQLuaViewCore.lua in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,6 +562,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				809B345F1F09E2B9008CAE16 /* XQDownloadFilesController.m in Sources */,
+				80152FBA1F062F7E005917FD /* XQDataHelper.m in Sources */,
 				8069766D1EE5305000B4B92D /* AppDelegate.m in Sources */,
 				802792C61EF901BA004C242F /* XQTableViewController.m in Sources */,
 				804839141F021112002EE19E /* XQLuaViewController.m in Sources */,
@@ -630,6 +647,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -677,6 +695,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -702,12 +721,16 @@
 			baseConfigurationReference = E631EADE457BC60F1BA3DCC5 /* Pods-XQLuaViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = XQLuaViewDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.XQLuaViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xq.-XQLuaView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -716,12 +739,16 @@
 			baseConfigurationReference = DDE87B335966C4712ACCB73C /* Pods-XQLuaViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = XQLuaViewDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.XQLuaViewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xq.-XQLuaView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

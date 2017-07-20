@@ -6,6 +6,8 @@ target 'XQLuaViewDemo' do
   # use_frameworks!
   pod 'LuaViewSDK', :git => 'git@github.com:alibaba/LuaViewSDK.git'
   pod 'SDWebImage', '3.7.5'
+
+  pod 'ZipArchive', '1.4.0'
   # Pods for XQLuaViewDemo
 
   target 'XQLuaViewDemoTests' do

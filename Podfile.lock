@@ -3,10 +3,12 @@ PODS:
   - SDWebImage (3.7.5):
     - SDWebImage/Core (= 3.7.5)
   - SDWebImage/Core (3.7.5)
+  - ZipArchive (1.4.0)
 
 DEPENDENCIES:
   - LuaViewSDK (from `git@github.com:alibaba/LuaViewSDK.git`)
   - SDWebImage (= 3.7.5)
+  - ZipArchive (= 1.4.0)
 
 EXTERNAL SOURCES:
   LuaViewSDK:
@@ -20,7 +22,8 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   LuaViewSDK: a7ddb90f2f456e92687d87a734485fdcae054900
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  ZipArchive: e25a4373192673e3229ac8d6e9f64a3e5713c966
 
-PODFILE CHECKSUM: '092e65604f17d328e627d896a441827e3bc76ade'
+PODFILE CHECKSUM: d11e80dabe758cc55c48f91941a85ebfb1f5a1a9
 
 COCOAPODS: 1.1.1

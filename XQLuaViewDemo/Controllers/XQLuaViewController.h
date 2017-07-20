@@ -13,6 +13,7 @@ typedef NS_ENUM(NSInteger, ViewType) {
     ViewType_allLua,
     ViewType_allLuaAndCustomUI,
     ViewType_luaViewCore,
+    ViewType_nativeDowloadLua,
 };
 
 @interface XQLuaViewController : UIViewController

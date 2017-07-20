@@ -91,6 +91,12 @@
     self.lv = [[LView alloc] initWithFrame:lvRect];
     self.lv.backgroundColor = [UIColor yellowColor];
 
+    self.lv.bundle = [[LVBundle alloc]init];
+    NSString *packagePath = [[[NSBundle mainBundle] bundlePath] stringByAppendingString:@"/XQOnlineLuas"];
+    [self.lv.bundle addScriptPath:packagePath];
+
+    [self.lv.bundle addResourcePath:packagePath];
+
     //若为自定义控件，则需要注册
     if (p_currentType == ViewType_allLuaAndCustomUI) {
         [self registerCustomClass];
